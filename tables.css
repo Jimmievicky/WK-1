@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+th {
+    height: 50px;
+    text-align: left;
+    background-color: #eee;
+}
+tr {
+    border-bottom:1px solid green;
+}
+.c {
+    text-align:center;
+}
+caption {
+    align-content: center;
+    color: green;
+}
+td:hover{
+    color: blue;
+}
+th:hover{
+    color: yellow;
+}
+tr:nth-child(4r) {
+    background-color:green;
+}
